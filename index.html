@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Mosaico de Imagens</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+    
+</head>
+<body>
+    <div class="header">
+        <h1>Mosaico Criativo</h1>
+        <label for="imageUpload" class="upload-btn"> + Adicionar Imagens </label>
+        <input type="file" id="imageUpload" accept="image/*" multiple>
+        <p style="margin-top: 10px; font-size: 0.9rem; color: #64748b;">
+            Ou arraste imagens do seu PC para cá
+        </p>
+    </div>
+    <div class="mosaic-container" id="mosaicContainer"><!-- As imagens aparecerão aqui --></div>
+    <script src="script.js"></script>
+</body>
+</html>
